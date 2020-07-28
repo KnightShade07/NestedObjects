@@ -21,5 +21,7 @@ namespace NestedObjects
         /// </summary>
 
         public string LastName { get; set; }
+
+        public List<Course> Schedule { get; set; }
     }
 }
